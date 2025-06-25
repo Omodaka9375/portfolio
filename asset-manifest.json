@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2cb7ef8d.css",
-    "main.js": "/Portfolio/static/js/main.e2659c60.js",
-    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
-    "static/media/mock11.png": "/Portfolio/static/media/mock11.3cecfd15f966a193da39.png",
-    "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.bac0efb485244a522981.png",
-    "static/media/bg-light.png": "/Portfolio/static/media/bg-light.5aee13149e944b98687f.png",
-    "static/media/mock07.png": "/Portfolio/static/media/mock07.96bafb2af9b4f78ac2ea.png",
-    "static/media/mock08.png": "/Portfolio/static/media/mock08.6ee0bed034f3ebc6ae19.png",
-    "static/media/mock10.png": "/Portfolio/static/media/mock10.7188f1b97f0edf1218d7.png",
-    "static/media/mock01.png": "/Portfolio/static/media/mock01.53471efb185ef5b733a2.png",
-    "static/media/mock03.png": "/Portfolio/static/media/mock03.994077c5120c59197cbb.png",
-    "static/media/mock09.png": "/Portfolio/static/media/mock09.0fdeef7d7e2d0056c1a6.png",
-    "static/media/mock05.png": "/Portfolio/static/media/mock05.857fcf25f18ab90d3314.png",
-    "static/media/mock02.png": "/Portfolio/static/media/mock02.4d2cc1b457fd751d5820.png",
-    "static/media/mock04.png": "/Portfolio/static/media/mock04.28b49a2867f5e7b2cc48.png",
-    "index.html": "/Portfolio/index.html",
-    "main.2cb7ef8d.css.map": "/Portfolio/static/css/main.2cb7ef8d.css.map",
-    "main.e2659c60.js.map": "/Portfolio/static/js/main.e2659c60.js.map",
-    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.6614e593.css",
+    "main.js": "/portfolio/static/js/main.dbc44395.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/mock11.png": "/portfolio/static/media/mock11.3cecfd15f966a193da39.png",
+    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.bac0efb485244a522981.png",
+    "static/media/bg-light.png": "/portfolio/static/media/bg-light.5aee13149e944b98687f.png",
+    "static/media/mock07.png": "/portfolio/static/media/mock07.96bafb2af9b4f78ac2ea.png",
+    "static/media/mock08.png": "/portfolio/static/media/mock08.6ee0bed034f3ebc6ae19.png",
+    "static/media/mock10.png": "/portfolio/static/media/mock10.7188f1b97f0edf1218d7.png",
+    "static/media/mock01.png": "/portfolio/static/media/mock01.53471efb185ef5b733a2.png",
+    "static/media/mock03.png": "/portfolio/static/media/mock03.994077c5120c59197cbb.png",
+    "static/media/mock09.png": "/portfolio/static/media/mock09.0fdeef7d7e2d0056c1a6.png",
+    "static/media/mock05.png": "/portfolio/static/media/mock05.857fcf25f18ab90d3314.png",
+    "static/media/mock02.png": "/portfolio/static/media/mock02.4d2cc1b457fd751d5820.png",
+    "static/media/mock04.png": "/portfolio/static/media/mock04.28b49a2867f5e7b2cc48.png",
+    "index.html": "/portfolio/index.html",
+    "main.6614e593.css.map": "/portfolio/static/css/main.6614e593.css.map",
+    "main.dbc44395.js.map": "/portfolio/static/js/main.dbc44395.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cb7ef8d.css",
-    "static/js/main.e2659c60.js"
+    "static/css/main.6614e593.css",
+    "static/js/main.dbc44395.js"
   ]
 }
