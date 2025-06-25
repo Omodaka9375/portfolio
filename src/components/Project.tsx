@@ -19,7 +19,7 @@ function Project() {
             <div className="project">
                 <a href="https://www.npmjs.com/package/aurora-db" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.npmjs.com/package/aurora-db" target="_blank" rel="noreferrer"><h2>AuroraDB</h2></a>
-                <p>Proxified asynchronous API for more flexible and distributed IndexedDB. Used in my games and P2P applications like GramCast, Monopoly On The Web and Teleprompter.</p>
+                <p>Proxified asynchronous API for more flexible and distributed IndexedDB. Used in my games and P2P applications like <a href="https://gramcast.xyz" target="_blank">GramCast</a>, <a href="https://omodaka9375.github.io/monopoly-on-the-web/" target="_blank">Monopoly On The Web</a> and <a href="https://github.com/Omodaka9375/teleprompter" target="_blank">Teleprompter</a>.</p>
             </div>
 
             <div className="project">
