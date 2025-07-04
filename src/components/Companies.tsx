@@ -17,7 +17,7 @@ function Companies() {
 
                 <div className="company">
                     <a href="https://ain.rs"><img src={ain} height={100} alt="logo"></img></a>
-                    <p>Founder & Chief Technology Officer Officer</p>
+                    <p>Founder & Chief Technology Officer</p>
                 </div>
 
                 <div className="company">

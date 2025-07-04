@@ -60,7 +60,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faHive as IconProp} size="3x"/>
                     <h3>Blockchain</h3>
-                    <p>I have built a diverse array of Web3 applications and smart contracts from scratch using technologies such as React, Solidity, IPFS etc. Built an award winning platform for ticket sales on Ethereum. Experience in building P2P decentralized technology with privacy in mind. Proficient in the Tact/FunC programming language on TON blockchain.</p>
+                    <p>I have built a diverse array of Web3 applications and smart contracts from scratch using technologies such as React, Solidity, IPFS etc. Built an award-winning platform for ticket sales on Ethereum. Experience in building P2P decentralized technology with privacy in mind. Proficient in the Tact/FunC programming language on TON blockchain.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack & platforms:</span>
                         {labelsFirst.map((label, index) => (
@@ -72,7 +72,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faUserSecret as IconProp} size="3x"/>
                     <h3>Cybersecurity</h3>
-                    <p>Contributed to award winning software that fights agains ransomware. Worked on custom hardware and software tools for pentesting and API testing. Wrote a plugin for Pwnagotchi. Built various POCs for steganography. Published phishing detection browser extension. Maintained security for corporate datacenter. Wrote articles for Hackernoon and Hakin9 magazine.</p>
+                    <p>Contributed to award-winning software that fights againts ransomware. Worked on custom hardware and software tools for pentesting and API testing. Wrote a plugin for Pwnagotchi. Built various POCs for steganography. Published a phishing detection browser extension. Maintained security for the corporate datacenter. Wrote articles for Hackernoon and Hakin9 magazine.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack & tools:</span>
                         {labelsSecond.map((label, index) => (
@@ -84,7 +84,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faCircleNodes as IconProp} size="3x"/>
                     <h3>Machine Learning</h3>
-                    <p>Wrote tools for different ML algorithms and frameworks. Trained custom models with OpenCV for mask detection, drowsines while driving and sign language recognition. Worked on LLMs since GPT-2. Developed and trained custom video, audio and text generation models. Created POC for AI in radiology in colaboration with medical profesionals and institutions.</p>
+                    <p>Wrote tools for different ML algorithms and frameworks. Trained custom models with OpenCV for mask detection, drowsiness while driving and sign language recognition. Worked on LLMs since GPT-2. Developed and trained custom video, audio and text generation models. Created POC for AI in radiology in collaboration with medical professionals and institutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack & frameworks:</span>
                         {labelsThird.map((label, index) => (

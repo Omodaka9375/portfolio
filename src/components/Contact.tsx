@@ -54,7 +54,7 @@ function Contact() {
       <div className="items-container">
         <div className="contact_wrapper">
           <h1>Get in contact</h1>
-          <p>Got an inquiry? Feel free to reachout at <a href='mailto:branislav.djalic@gmail.com'>branislav.djalic@gmail.com</a></p>
+          <p>Got an inquiry? Feel free to reach out at <a href='mailto:branislav.djalic@gmail.com'>branislav.djalic@gmail.com</a></p>
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">AIN, Founder & CTO</h3>
             <h4 className="vertical-timeline-element-subtitle">Belgrade, Serbia</h4>
             <p>
-              Building products, rasing capital. Started <a className="innerlink" href="https://web3.ain.rs">Web3 Academy</a>. Winner of <a className="innerlink" href="https://katapult-akcelerator.rs/" target="_blank">Katapult25 Accelerator Program</a>.
+              Building products, raising capital. Started <a className="innerlink" href="https://web3.ain.rs">Web3 Academy</a>. Winner of <a className="innerlink" href="https://katapult-akcelerator.rs/" target="_blank">Katapult25 Accelerator Program</a>.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -38,7 +38,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Footballerista, CTO</h3>
             <h4 className="vertical-timeline-element-subtitle">Lucerne, Switzerland</h4>
             <p>
-              Building private blockchain and social media platform for football players and fans alike. (Loopback, Terraform, Docker orchestration)
+              Building a private blockchain and social media platform for football players and fans alike. (Loopback, Terraform, Docker orchestration)
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
