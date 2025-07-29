@@ -10,6 +10,7 @@ import mock10 from '../assets/images/mock10.png';
 import mock11 from '../assets/images/mock11.png';
 import mock12 from '../assets/images/dilber.gif';
 import mock13 from '../assets/images/midifren.gif';
+import mock14 from '../assets/images/velocity.gif';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -17,6 +18,13 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects and Contributions</h1>
         <div className="projects-grid">
+
+        <div className="project">
+            <a href="https://velocity-js.info" target="_blank" rel="noreferrer"><h2>Velocity.js ⚡</h2></a>
+            <p>Velocity.js is an intelligent performance optimization library that dramatically speeds up your website by predicting and prefetching resources before users need them.</p>
+            <a href="https://velocity-js.info" target="_blank" rel="noreferrer"><img src={mock14} className="zoom" alt="thumbnail" width="100%"/></a>
+        </div>
+
         <div className="project">
             <a href="https://dilber.io" target="_blank" rel="noreferrer"><h2>Dilber</h2></a>
             <p>Live audio-visual coding environment in Javascript for the browser</p>
