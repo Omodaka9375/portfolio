@@ -34,10 +34,11 @@ function App() {
         <FadeIn transitionDuration={700}>
             <Main/>
             <Expertise/>
+            <Project/>
             <Companies/>
             {/* <Events/> */}
             <Timeline/>
-            <Project/>
+            
             <Contact/>
         </FadeIn>
         <Footer />
