@@ -11,6 +11,7 @@ import mock11 from '../assets/images/mock11.png';
 import mock12 from '../assets/images/dilber.gif';
 import mock13 from '../assets/images/midifren.gif';
 import mock14 from '../assets/images/velocity.gif';
+import mock15 from '../assets/images/peerweb.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -23,6 +24,12 @@ function Project() {
             <a href="https://velocity-js.info" target="_blank" rel="noreferrer"><h2>Velocity.js ⚡</h2></a>
             <p>Velocity.js is an intelligent performance optimization library that dramatically speeds up your website by predicting and prefetching resources before users need them.</p>
             <a href="https://velocity-js.info" target="_blank" rel="noreferrer"><img src={mock14} className="zoom" alt="thumbnail" width="100%"/></a>
+        </div>
+
+        <div className="project">
+            <a href="https://peerweb.lol" target="_blank" rel="noreferrer"><h2>PeerWeb 🪐</h2></a>
+            <p>PeerWeb enables truly decentralized, censorship-resistant website hosting through peer-to-peer networks.</p>
+            <a href="https://peerweb.lol" target="_blank" rel="noreferrer"><img src={mock15} className="zoom" alt="thumbnail" width="100%"/></a>
         </div>
 
         <div className="project">
