@@ -12,6 +12,7 @@ import mock12 from '../assets/images/dilber.gif';
 import mock13 from '../assets/images/midifren.gif';
 import mock14 from '../assets/images/velocity.gif';
 import mock15 from '../assets/images/peerweb.png';
+import mock16 from '../assets/images/chainwise-logo.svg';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -19,6 +20,12 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects and Contributions</h1>
         <div className="projects-grid">
+
+        <div className="project">
+            <a href="https://chainwise.me/" target="_blank" rel="noreferrer"><h2>ChainWise 🔑</h2></a>
+            <p>ChainWise.js is a powerful, fast, multi-blockchain HD wallet library that provides seamless cryptocurrency operations across 17+ blockchain networks. Built with a unified architecture, it eliminates the complexity of managing separate crypto libraries while providing enterprise-grade security and performance.</p>
+            <a href="https://github.com/Omodaka9375/ChainWise" target="_blank" rel="noreferrer"><img src={mock16} className="zoom" alt="thumbnail" width="100%"/></a>
+        </div>
 
         <div className="project">
             <a href="https://velocity-js.info" target="_blank" rel="noreferrer"><h2>Velocity.js ⚡</h2></a>
@@ -87,12 +94,6 @@ function Project() {
                 <a href="https://github.com/Omodaka9375/soundterminal" target="_blank" rel="noreferrer"><h2>SoundTerminal</h2></a>
                 <p>Python application that allows you to create some beats via command-line using ASCII characters and some samples</p>
                 <a href="https://github.com/Omodaka9375/soundterminal" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-
-            </div>
-            <div className="project">
-                <a href="https://github.com/Omodaka9375/sendfiles.run" target="_blank" rel="noreferrer"><h2>SendFilesNow</h2></a>
-                <p>Unlimited Peer-To-Peer file sharing in the browser, written in vanilla JavaScript and powered by WebTorrent</p>
-                <a href="https://github.com/Omodaka9375/sendfiles.run" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
 
             </div>
             <div className="project">
