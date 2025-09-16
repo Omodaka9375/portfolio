@@ -13,6 +13,8 @@ import mock13 from '../assets/images/midifren.gif';
 import mock14 from '../assets/images/velocity.gif';
 import mock15 from '../assets/images/peerweb.png';
 import mock16 from '../assets/images/chainwise-logo.svg';
+import mock17 from '../assets/images/codeprompt.png';
+import mock18 from '../assets/images/popscore.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -20,6 +22,18 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects and Contributions</h1>
         <div className="projects-grid">
+
+        <div className="project">
+            <a href="https://codeprompt.me/" target="_blank" rel="noreferrer"><h2>CodePrompt 🚀</h2></a>
+            <p>Token-efficient AI prompt generator for developers</p>
+            <a href="https://github.com/Omodaka9375/Intrinsic-Image-Popularity" target="_blank" rel="noreferrer"><img src={mock17} className="zoom" alt="thumbnail" width="100%"/></a>
+        </div>
+
+        <div className="project">
+            <a href="https://popscore.app/" target="_blank" rel="noreferrer"><h2>PopScore AI 🔥</h2></a>
+            <p>Discover your image's viral potential with AI-powered image analysis</p>
+            <a href="https://github.com/Omodaka9375/Intrinsic-Image-Popularity" target="_blank" rel="noreferrer"><img src={mock18} className="zoom" alt="thumbnail" width="100%"/></a>
+        </div>
 
         <div className="project">
             <a href="https://chainwise.me/" target="_blank" rel="noreferrer"><h2>ChainWise 🔑</h2></a>
