@@ -26,7 +26,7 @@ function Project() {
         <div className="project">
             <a href="https://codeprompt.me/" target="_blank" rel="noreferrer"><h2>CodePrompt 🚀</h2></a>
             <p>Token-efficient AI prompt generator for developers</p>
-            <a href="https://github.com/Omodaka9375/Intrinsic-Image-Popularity" target="_blank" rel="noreferrer"><img src={mock17} className="zoom" alt="thumbnail" width="100%"/></a>
+            <a href="https://github.com/Omodaka9375/code-prompt" target="_blank" rel="noreferrer"><img src={mock17} className="zoom" alt="thumbnail" width="100%"/></a>
         </div>
 
         <div className="project">
