@@ -92,7 +92,6 @@ function Timeline() {
           
         </VerticalTimeline>
         
-        <p className="download"><a href="https://drive.google.com/file/d/1BBxsEibsr4s7Ohz1_S1ZIOkl4AcMyryS/view?usp=sharing" target="_blank" rel="noreferrer">Download resume in PDF</a></p>
 
       </div>
     </div>
