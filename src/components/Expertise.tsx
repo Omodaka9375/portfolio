@@ -50,8 +50,7 @@ const labelsSecond = [
     "Pentesting",
     "Wifi Pineapple",
     "Pwnagotchi",
-    "Bjorn",
-    "FlipperZero"
+    "Bjorn"
 ];
 
 const labelsThird = [
