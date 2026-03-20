@@ -3,9 +3,25 @@ import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHive } from '@fortawesome/free-brands-svg-icons';
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
-import { faUserSecret, faCircleNodes } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faUserSecret, faCircleNodes } from "@fortawesome/free-solid-svg-icons";
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
+
+const labelsSwe = [
+    "TypeScript",
+    "Python",
+    "C++",
+    "C#",
+    "Rust",
+    "Node.js",
+    "React",
+    "Svelte",
+    "PostgreSQL",
+    "MongoDB",
+    "Docker",
+    "AWS",
+    "Git",
+];
 
 const labelsFirst = [
     "Solidity",
@@ -57,6 +73,18 @@ function Expertise() {
         <div className="skills-container">
             <h1>Expertise</h1>
             <div className="skills-grid">
+                <div className="skill">
+                    <FontAwesomeIcon icon={faCode as IconProp} size="3x"/>
+                    <h3>Software Engineering</h3>
+                    <p>Over a decade building production software — from game engines and mobile apps to full-stack web platforms and CLI tools. Comfortable across the stack: backends, frontends, databases, infrastructure. Strong focus on clean architecture and shipping fast.</p>
+                    <div className="flex-chips">
+                        <span className="chip-title">Languages & tools:</span>
+                        {labelsSwe.map((label, index) => (
+                            <Chip key={index} className='chip' label={label} />
+                        ))}
+                    </div>
+                </div>
+
                 <div className="skill">
                     <FontAwesomeIcon icon={faHive as IconProp} size="3x"/>
                     <h3>Blockchain</h3>

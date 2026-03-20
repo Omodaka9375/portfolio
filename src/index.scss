@@ -1,58 +1,89 @@
+/* ── 80s Macintosh-inspired Portfolio ── */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "DM Mono", "Monaco", "Courier New", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1.1rem !important;
+  font-size: 1rem !important;
+  line-height: 1.7;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace !important;
-  font-size: 1rem !important;
+  font-family: "DM Mono", Monaco, Consolas, "Courier New", monospace !important;
+  font-size: 0.95rem !important;
 }
 
 .main-container {
   position: relative;
-  background-color: #0d1116;
-
+  background-color: #1a1a1e;
+  min-height: 100vh;
 }
 
 a {
   text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 a:hover {
-  color: #5c5b5f;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  color: #a08dc8;
 }
 
 p, a, h1, h2, h3, h4, h5, label, button {
-  color: white;
-  font-family: "Lato", sans-serif;
+  color: #e8e8e0;
+  font-family: "DM Mono", "Monaco", "Courier New", monospace;
 }
+
+h1 {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+/* ── Navigation — Mac menu bar ── */
 
 .navigation-bar {
   justify-content: space-between;
-  background-color: #0d1116;
+  background-color: transparent;
 
   button {
-    font-size: 1.1rem;
-    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-family: "DM Mono", monospace;
     text-transform: initial;
-    padding: 6px 10px;
+    padding: 6px 12px;
+    letter-spacing: 0.01em;
   }
 
   svg {
     cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 1;
+    }
   }
+}
+
+.navbar-fixed-top {
+  background-color: rgba(26, 26, 30, 0.85) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: none !important;
+}
+
+.navbar-fixed-top.scrolled {
+  border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 
 .navigation-bar-responsive {
   span, p {
-    color: #0d1116;
-    font-family: "Lato", sans-serif;
+    color: #1a1a1e;
+    font-family: "DM Mono", monospace;
   }
 }
 
@@ -65,91 +96,135 @@ p, a, h1, h2, h3, h4, h5, label, button {
   justify-content: center;
 }
 
-.header-image {
-  width: 100%;
-  height: 450px;
-
-  img {
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
-  }
-}
-
 .mobile-menu-top {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .items-container {
-  padding: 5% 10%;
+  padding: 6% 12%;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+/* ── Section dividers ── */
+
+.container + .container,
+#career,
+#contact {
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ── Light mode ── */
+
 .light-mode {
-  background-color: #f8f9fa;
+  background-color: #f0efe8;
 
   .navigation-bar {
-    background-color: #f8f9fa;
+    background-color: transparent;
+  }
+
+  .navbar-fixed-top {
+    background-color: rgba(240, 239, 232, 0.88) !important;
+    border-bottom-color: #c8c8c0;
+  }
+
+  .navbar-fixed-top.scrolled {
+    border-bottom-color: #b8b8b0;
   }
 
   p, a, h1, h2, h3, h4, h5, label, button {
-    color: #0d1116;
+    color: #1a1a1e;
   }
 
   a:hover {
-    color: #5c5b5f;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: #6b5b95;
   }
 
   .navigation-bar svg {
-    color: #0d1116;
+    color: #1a1a1e;
   }
 
   .about-section {
-    background-image: url("./assets/images/bg-light.png");
+    border-bottom: 1px solid #c8c8c0;
   }
 
   .skills-container svg {
-    color: #0d1116;
+    color: #1a1a1e;
   }
 
   .chip {
-    background-color: rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    background-color: #e8e7e0 !important;
+    color: #1a1a1e !important;
+    border: 1px solid #c8c8c0 !important;
+    box-shadow: none !important;
   }
 
   .vertical-timeline::before {
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: #c8c8c0;
   }
 
   .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+    border: 1px solid #c8c8c0;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.04);
   }
 
   .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
-    color: gray;
+    color: #6a6a60;
   }
 
   .vertical-timeline-element-content-arrow {
-    border-right: 7px solid rgba(0, 0, 0, 0.08) !important;
+    border-right: 7px solid #c8c8c0 !important;
   }
 
   .flex-chips .chip-title {
-    color: #0d1116;
+    color: #1a1a1e;
+  }
+
+  .container + .container,
+  #career,
+  #contact {
+    border-top-color: #c8c8c0;
+  }
+
+  .project {
+    border-color: #c8c8c0 !important;
+    background-color: #ffffff !important;
+
+    &:hover {
+      border-color: #6b5b95 !important;
+    }
+  }
+
+  .skill {
+    border-color: #c8c8c0 !important;
+    background-color: #ffffff !important;
+  }
+
+  .company {
+    border-color: #c8c8c0 !important;
+    background-color: #ffffff !important;
+  }
+
+  footer {
+    border-top-color: #c8c8c0;
+  }
+
+  .category-label {
+    color: #6b5b95;
+    border-bottom-color: #c8c8c0;
   }
 }
 
 @media screen {
   @media (max-width: 768px) {
     .items-container {
-      padding: 5% 5%;
+      padding: 8% 5%;
     }
   }
 }

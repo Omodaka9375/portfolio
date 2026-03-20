@@ -15,10 +15,10 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(46, 42, 42)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            contentStyle={{ background: '#fafaf5', color: '#1a1a1e' }}
+            contentArrowStyle={{ borderRight: '7px solid #fafaf5' }}
             date="2021 - present"
-            iconStyle={{ background: 'rgb(130, 109, 162)', color: 'rgb(46, 42, 42)' }}
+            iconStyle={{ background: '#a08dc8', color: '#fafaf5' }}
             icon={<FontAwesomeIcon icon={faBriefcase as IconProp} />}
           >
             <h3 className="vertical-timeline-element-title">AIN, Founder & CTO</h3>
@@ -29,10 +29,10 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(46, 42, 42)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            contentStyle={{ background: '#fafaf5', color: '#1a1a1e' }}
+            contentArrowStyle={{ borderRight: '7px solid #fafaf5' }}
             date="2020 - 2021"
-            iconStyle={{ background: 'rgb(130, 109, 162)', color: 'rgb(46, 42, 42)' }}
+            iconStyle={{ background: '#a08dc8', color: '#fafaf5' }}
             icon={<FontAwesomeIcon icon={faBriefcase as IconProp} />}
           >
             <h3 className="vertical-timeline-element-title">Footballerista, CTO</h3>
@@ -44,7 +44,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2019 - 2020"
-            iconStyle={{ background: 'rgb(130, 109, 162)', color: 'rgb(46, 42, 42)' }}
+            iconStyle={{ background: '#a08dc8', color: '#fafaf5' }}
             icon={<FontAwesomeIcon icon={faBriefcase as IconProp} />}
           >
             <h3 className="vertical-timeline-element-title">Zepter, Head of Development</h3>
@@ -56,7 +56,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2017 - 2019"
-            iconStyle={{ background: 'rgb(130, 109, 162)', color: 'rgb(46, 42, 42)' }}
+            iconStyle={{ background: '#a08dc8', color: '#fafaf5' }}
             icon={<FontAwesomeIcon icon={faBriefcase as IconProp} />}
           >
             <h3 className="vertical-timeline-element-title">Outfit7, Senior Software Engineer</h3>
@@ -68,7 +68,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2016 - 2017"
-            iconStyle={{ background: 'rgb(130, 109, 162)', color: 'rgb(46, 42, 42)' }}
+            iconStyle={{ background: '#a08dc8', color: '#fafaf5' }}
             icon={<FontAwesomeIcon icon={faBriefcase as IconProp} />}
           >
             <h3 className="vertical-timeline-element-title">Mad Head Games, Engine Developer</h3>
@@ -80,7 +80,7 @@ function Timeline() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="2014 - 2016"
-            iconStyle={{ background: 'rgb(130, 109, 162)', color: 'rgb(46, 42, 42)' }}
+            iconStyle={{ background: '#a08dc8', color: '#fafaf5' }}
             icon={<FontAwesomeIcon icon={faBriefcase as IconProp} />}
           >
          <h3 className="vertical-timeline-element-title">Tab Tale Games, Game Developer</h3>

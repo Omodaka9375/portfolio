@@ -4,64 +4,48 @@
     flex-direction: column;
     width: 100%;
 
-    svg {
-        color: white;
+    h1 {
+        text-align: left;
+        margin-bottom: 8px;
     }
 }
-.companies-container h1 {
-    text-align: left;
-}
-  
+
 .companies-container .companies-grid {
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
+    grid-gap: 28px;
 }
-  
+
 .companies-grid .company {
     align-items: center;
     text-align: center;
-}
-  
-.chip {
-    color: rgb(39, 40, 34) !important;
-    background-color: white !important;
-    font-size: 0.8rem !important;
-    height: 25px !important;
-  
-    span {
-        font-family: 'Courier Prime', monospace;
-        color: rgb(39, 40, 34);
+    padding: 24px 16px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #222226;
+    transition: border-color 0.2s ease;
+
+    &:hover {
+        border-color: #a08dc8;
     }
-  
-    svg {
-        height: 15px !important;
+
+    img {
+        opacity: 0.85;
+        transition: opacity 0.2s ease;
+        filter: grayscale(20%);
     }
-}
 
-.flex-chips {
-    line-height: 2;
-    margin: 0.5;
-
-    .chip-title {
-        color: white;
-        padding-right: 10px;
+    &:hover img {
+        opacity: 1;
+        filter: grayscale(0%);
     }
-}
 
-.flex-chips .MuiChip-root {
-    margin-right: 0.5em;
-}
-
-.flex-chips .MuiChip-outlined {
-    background-color: #e0e0e0;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
-}
-
-.flex-chips .MuiChip-outlined span {
-    color: rgb(39, 40, 34);
+    p {
+        font-size: 0.85rem;
+        color: #9a9a90;
+        margin-top: 12px;
+    }
 }
 
 @media screen {
@@ -71,19 +55,13 @@
             padding-left: 5%;
             padding-right: 5%;
         }
-    
+
         .companies-container .companies-grid {
             display: initial;
         }
-        
-        .companies-container .companies-grid .company {
-            padding-bottom: 5%;
-        }
-    }
 
-    @media (max-width: 567px) {
-        .companies {
-            font-size: 12px;
+        .companies-container .companies-grid .company {
+            margin-bottom: 16px;
         }
     }
 }

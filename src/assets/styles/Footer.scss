@@ -1,15 +1,23 @@
 footer {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
 
     svg {
-        width: 1.1em !important;
-        height: 1.1em !important;
-        margin-right: 10px;
+        width: 1em !important;
+        height: 1em !important;
+        margin-right: 12px;
+        opacity: 0.5;
+        transition: opacity 0.2s ease;
+
+        &:hover {
+            opacity: 1;
+        }
     }
 
     p {
-        font-size: 0.8em;
+        font-size: 0.75em;
+        color: #9a9a90;
     }
 }

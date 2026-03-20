@@ -37,7 +37,7 @@ function Companies() {
 
                 <div className="company">
                     <a href="https://outfit7.com/"><img src={out} height={100} alt="logo"></img></a>
-                    <p>Game Engine Developer, My Talking Tom etc.</p>
+<p>Senior Software Developer, My Talking Tom etc.</p>
                 </div>
 
                 <div className="company">

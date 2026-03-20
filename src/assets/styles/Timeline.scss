@@ -1,48 +1,78 @@
 .vertical-timeline span {
-    color: white;
-    font-family: 'Courier Prime', monospace;
+    color: #e8e8e0;
+    font-family: "DM Mono", monospace;
 }
-.download{
+
+.vertical-timeline::before {
+    background-color: #333;
+}
+
+.download {
     margin: 0 auto;
     text-align: center;
-    padding-top: 100px;
-    font-size: 25px !important;
+    padding-top: 80px;
+    font-size: 1.1rem !important;
+
+    a {
+        color: #a08dc8;
+        border-bottom: 1px solid #a08dc8;
+        padding-bottom: 2px;
+        transition: color 0.2s ease, border-color 0.2s ease;
+
+        &:hover {
+            color: #c8b8e8;
+            border-color: #c8b8e8;
+        }
+    }
 }
 
 .innerlink {
-    color: #3100df !important;
+    color: #a08dc8 !important;
+
+    &:hover {
+        color: #c8b8e8 !important;
+    }
+}
+
+.vertical-timeline-element-content {
+    border: 1px solid #c8c8c0 !important;
+    border-radius: 4px !important;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.04) !important;
 }
 
 .vertical-timeline p {
-    color: rgb(39, 40, 34);
+    color: #4a4a44;
+    font-size: 0.9rem;
 }
 
 .vertical-timeline-element p {
-    color: rgb(39, 40, 34);
+    color: #4a4a44;
 }
 
 .vertical-timeline-element h3 {
-    color: rgb(39, 40, 34);
+    color: #1a1a1e;
+    font-weight: 500;
 }
 
 .vertical-timeline-element h4 {
-    color: rgb(39, 40, 34);
+    color: #6a6a60;
+    font-weight: 400;
 }
 
 .vertical-timeline-element span {
-    color: rgb(39, 40, 34);
+    color: #4a4a44;
 }
 
 .vertical-timeline-element .vertical-timeline-element-date {
-    color: white;
+    color: #9a9a90;
 }
 
 .svg-inline--fa {
-    color: white;
+    color: #e8e8e0;
 }
 
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
-        color: rgb(39, 40, 34);
+        color: #4a4a44;
     }
 }
