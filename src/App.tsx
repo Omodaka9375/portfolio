@@ -29,31 +29,7 @@ function App() {
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
 
-        // Custom Mac cursor — generate PNG from canvas for universal support
-        const canvas = document.createElement('canvas');
-        canvas.width = 16;
-        canvas.height = 22;
-        const ctx = canvas.getContext('2d')!;
-        ctx.fillStyle = '#e8e8e0';
-        ctx.strokeStyle = '#111';
-        ctx.lineWidth = 1;
-        ctx.beginPath();
-        ctx.moveTo(1, 1);
-        ctx.lineTo(1, 18);
-        ctx.lineTo(4.5, 14);
-        ctx.lineTo(7.5, 21);
-        ctx.lineTo(10, 19.5);
-        ctx.lineTo(7, 13);
-        ctx.lineTo(12, 13);
-        ctx.closePath();
-        ctx.fill();
-        ctx.stroke();
-        const cursorUrl = canvas.toDataURL('image/png');
-        const style = document.createElement('style');
-        style.textContent = `* { cursor: url("${cursorUrl}") 0 0, auto !important; }`;
-        document.head.appendChild(style);
-
-        // CRT flicker → Happy Mac → desktop → done
+        // CRT flicker
         const t1 = setTimeout(() => setBootPhase(BOOT_HAPPY_MAC), 200);
         const t2 = setTimeout(() => setBootPhase(BOOT_DESKTOP), 1400);
         const t3 = setTimeout(() => setBootPhase(BOOT_DONE), 2200);
