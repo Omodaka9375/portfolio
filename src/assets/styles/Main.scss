@@ -110,20 +110,30 @@
 .about-section .content {
     text-align: left;
 
-    .social_icons {
+    .social_icons, .mobile_social_icons {
         display: flex;
         flex-direction: row;
-        gap: 14px;
+        align-items: center;
+        gap: 12px;
         padding-top: 20px;
 
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 22px;
+            height: 22px;
+        }
+
         svg {
-            font-size: 1.3em;
+            width: 18px;
+            height: 18px;
             opacity: 0.6;
             transition: opacity 0.2s ease;
+        }
 
-            &:hover {
-                opacity: 1;
-            }
+        a:hover svg {
+            opacity: 1;
         }
     }
 

@@ -87,6 +87,7 @@ function Navigation({parentToChild, modeChange}: any) {
           >
             <MenuIcon />
           </IconButton>
+
           {mode === 'dark' ? (
             <LightModeIcon onClick={() => modeChange()}/>
           ) : (

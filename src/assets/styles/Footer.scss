@@ -4,16 +4,31 @@ footer {
     padding-bottom: 40px;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
 
+    > div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+    }
+
     svg {
-        width: 1em !important;
-        height: 1em !important;
-        margin-right: 12px;
+        width: 16px !important;
+        height: 16px !important;
+        margin: 0;
         opacity: 0.5;
         transition: opacity 0.2s ease;
+    }
 
-        &:hover {
-            opacity: 1;
-        }
+    a:hover svg {
+        opacity: 1;
     }
 
     p {

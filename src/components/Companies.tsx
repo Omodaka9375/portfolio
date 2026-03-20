@@ -37,12 +37,12 @@ function Companies() {
 
                 <div className="company">
                     <a href="https://outfit7.com/"><img src={out} height={100} alt="logo"></img></a>
-<p>Senior Software Developer, My Talking Tom etc.</p>
+<p>Senior Software Engineer</p>
                 </div>
 
                 <div className="company">
                     <a href="https://www.madheadgames.com/"><img src={mad} height={100} alt="logo"></img></a>
-                    <p>Game Developer</p>
+                    <p>Software Engineer</p>
                 </div>
 
             </div>
